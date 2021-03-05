@@ -1,4 +1,5 @@
 .navigation {
+  color: $color-white;
 
   & li {
     display: inline-block;
@@ -10,7 +11,4 @@
     }
   }
 
-  &--footer {
-
-  }
 }

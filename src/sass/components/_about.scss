@@ -8,6 +8,7 @@
 
   &__photo {
     grid-column: 1 / span 5;
+    grid-row: 1 / 2;
     border-radius: .5rem;
     overflow: hidden;
 
@@ -17,22 +18,17 @@
       object-fit: cover;
       display: block;
     }
-
-    //height: 500px;
-    //width: 731px;
-
   }
 
   &__text-box {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 50%;
-    top: 38%;
+    grid-column: 5 / 9;
+    grid-row: 1 / 2;
 
+    align-self: end;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 60%;
 
     padding-top: 8rem;
     padding-left: 8rem;
@@ -41,18 +37,21 @@
 
     &--title {
       display: flex;
-      margin-bottom: auto;
       flex-direction: column;
+
       text-transform: uppercase;
       font-size: 2.1rem;
       color: $color-black;
 
+      margin-bottom: 2.1rem;
     }
 
     &--message {
+      display: flex;
+      flex-wrap: wrap;
       color: $color-very-dark-gray;
-      line-height: 2rem;
-      width: 45ch;
+      line-height: 2.5rem;
+
 
       p {
         padding: 0;

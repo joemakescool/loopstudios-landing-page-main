@@ -9,9 +9,10 @@
 @import 'components/creations';
 @import "components/navigation";
 @import "components/creations__button";
+@import "components/social-icons";
 
 //-- LAYOUT --//
 @import 'layout/header';
-@import 'layout/home';
+@import 'views/home';
 @import 'layout/footer';
 
