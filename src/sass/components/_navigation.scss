@@ -1,0 +1,16 @@
+.navigation {
+
+  & li {
+    display: inline-block;
+    margin-right: 2rem;
+    font-family: 'Alata', sans-serif;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &--footer {
+
+  }
+}

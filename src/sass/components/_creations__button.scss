@@ -1,0 +1,54 @@
+.creations__button {
+  position: relative;
+  align-self: center;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 1rem 4rem;
+
+  &--top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: $button-border-size;
+    width: 100%;
+    background-color: $color-black;
+  }
+
+  &--bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: $button-border-size;
+    width: 100%;
+    background-color: $color-black;
+  }
+
+  &--left {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    width: $button-border-size;
+    background-color: $color-black;
+  }
+
+  &--right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: $button-border-size;
+    background-color: $color-black;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+
+}

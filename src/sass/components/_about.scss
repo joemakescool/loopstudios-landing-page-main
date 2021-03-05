@@ -1,0 +1,66 @@
+.about {
+  grid-column: center-start / center-end;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: [about-column-start] repeat(8, 1fr) [about-column-end];
+
+
+  &__photo {
+    grid-column: 1 / span 5;
+    border-radius: .5rem;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    //height: 500px;
+    //width: 731px;
+
+  }
+
+  &__text-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    top: 38%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding-top: 8rem;
+    padding-left: 8rem;
+
+    background-color: $color-white;
+
+    &--title {
+      display: flex;
+      margin-bottom: auto;
+      flex-direction: column;
+      text-transform: uppercase;
+      font-size: 2.1rem;
+      color: $color-black;
+
+    }
+
+    &--message {
+      color: $color-very-dark-gray;
+      line-height: 2rem;
+      width: 45ch;
+
+      p {
+        padding: 0;
+        text-align: start;
+      }
+
+    }
+  }
+
+
+}
