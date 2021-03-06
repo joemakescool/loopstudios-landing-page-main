@@ -1,6 +1,7 @@
 .header-background {
   grid-column: full-start / full-end;
   grid-row: 1 / 2;
+
   background-image: url("~@/assets/images/desktop/image-hero.jpg");
   background-blend-mode: multiply;
   background-color: rgba(50, 50, 50, .4);
