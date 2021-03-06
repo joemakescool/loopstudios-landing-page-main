@@ -1,5 +1,9 @@
 <template>
+  <div class="footer-background"></div>
+
 <div class="footer">
+
+
   <div class="footer--top">
     <div class="footer__logo">
       <svg width="192" height="32" xmlns="http://www.w3.org/2000/svg">

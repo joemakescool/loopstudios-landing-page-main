@@ -1,5 +1,13 @@
+.footer-background {
+  grid-column: full-start/ full-end;
+  grid-row: 4 / 5;
+  background-color: $color-black;
+}
+
 .footer {
   grid-column: center-start / center-end;
+  grid-row: 4 / 5;
+  padding: 3rem 0;
 
   display: flex;
   flex-direction: column;
@@ -9,17 +17,18 @@
   &--top {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1rem;
 
   }
 
   &--bottom {
-    background-color: gold;
     display: flex;
     justify-content: space-between;
+    align-items: end;
   }
 
   &--icons {
-    background-color: darkgray;
     align-self: center;
   }
 
@@ -27,11 +36,6 @@
 
   }
 
-}
-
-.footer-container {
-  grid-column: full-start / full-end;
-  background-color: $color-black;
 }
 
 .copyright {

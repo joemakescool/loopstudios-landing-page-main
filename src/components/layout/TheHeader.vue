@@ -1,4 +1,5 @@
 <template>
+  <div class="header-background"></div>
   <div class="header">
 
     <div class="header__nav">

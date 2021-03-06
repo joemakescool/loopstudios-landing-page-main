@@ -1,20 +1,26 @@
-.header {
+.header-background {
   grid-column: full-start / full-end;
-
-  display: flex;
-  flex-direction: column;
-
+  grid-row: 1 / 2;
   background-image: url("~@/assets/images/desktop/image-hero.jpg");
   background-blend-mode: multiply;
   background-color: rgba(50, 50, 50, .4);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+}
 
-  padding: 5rem 10rem;
+.header {
+  grid-column: center-start / center-end;
+  grid-row: 1 / 2;
+  margin-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+
 
   &__logo {
     display: block;
+
   }
 
   &__nav {
@@ -27,7 +33,6 @@
     ul {
       font-size: 1.7rem;
       font-family: 'Alata', sans-serif;
-      transform: translateY(1px) translateX(-10rem);
 
     }
 
