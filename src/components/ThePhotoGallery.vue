@@ -70,7 +70,10 @@
 
 <script>
 export default {
-  name: "ThePhotoGallery"
+  name: "ThePhotoGallery",
+  methods: {
+
+  }
 }
 </script>
 

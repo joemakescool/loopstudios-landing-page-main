@@ -10,13 +10,7 @@
         </svg>
       </div>
 
-      <ul>
-        <li>About</li>
-        <li>Careers</li>
-        <li>Events</li>
-        <li>Products</li>
-        <li>Support</li>
-      </ul>
+      <Navigation></Navigation>
 
     </div>
 
@@ -31,8 +25,12 @@
 </template>
 
 <script>
+import Navigation from "../Navigation";
 export default {
-name: "TheHeader"
+name: "TheHeader",
+  components: {
+    Navigation
+  }
 }
 </script>
 
